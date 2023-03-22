@@ -75,7 +75,7 @@ module.exports = {
         minimizer:[
             new minimizer(),
             new tercer()
-        ]
+        ] 
     }
 }
 
