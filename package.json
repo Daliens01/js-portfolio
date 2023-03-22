@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./scripts/crerate-env.js && webpack --mode production --config webpack.config.js",
+    "build": "node ./scripts/create-env.js && webpack --mode production --config webpack.config.js",
     "dev": "webpack --config webpack.config.dev.js",
     "build-watch":"webpack --watch --config webpack.config.dev.js"
   },
@@ -21,7 +21,7 @@
   "author": "oscar barajas <oscar@gndx.dev>",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Daliens01/js-portfolio.git"
   },
   "homepage": "https://github.com/Daliens01/js-portfolio.git#readme",
   "dependencies": {
